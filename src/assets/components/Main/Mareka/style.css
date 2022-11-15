@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Mareka{
+    padding: 100px 0;
+}
+
+.MarekaHeading{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    color: #212121;
+    margin-bottom: 8px;
+}
+.MarekaDesc{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #949494;
+    margin-bottom: 25px;
+}
+.MarekaItemWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.MareakItem{
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 30px;
+    width: 596px;
+    position: relative;
+}
+.MarekaItemDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #212121;
+    margin-bottom: 44px;
+}
+.MarekaItemMain{
+    display: flex;
+    align-items: center;
+}
+.MarekaItemMainData{
+    margin-left: 16px;
+}
+.Name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #212121;
+}
+.address{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #949494;
+}
+.Slider{
+    width: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    list-style-type: none;
+    margin-top: 72px;
+}
+.SliderItems{
+    width: 16px;
+    height: 16px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.SliderItems:first-child{
+    background-color: #008F76;
+}
+.arrow-rightM {
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #008F76;
+    color: #FFFFFF;
+    padding: 10px 17px;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    left: 96%;
+}
+
+.arrow-leftM {
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #F1F1F1;
+    color: #949494;
+    padding: 10px 17px;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    left: -4%;
+}

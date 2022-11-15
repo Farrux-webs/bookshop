@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Kegiatan{
+    padding: 100px 0;
+}
+.headingWr{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0;
+    margin-bottom: 8px;
+}
+.KegiatanHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    color: #212121;
+}
+.KegiatanSpan{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #949494;
+}
+.KegiatanDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #949494;
+    margin-bottom: 24px;
+}
+.KegiatanCards{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 381px);
+    gap: 48px;
+}
+.CardItem{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 246px 25px 30px 30px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.CardItem:first-child{
+    background-image: url(../../../images/Poverty.png);
+}
+.CardItem:nth-child(2){
+    background-image: url(../../../images/Library.png);
+}
+.CardItem:nth-child(3){
+    background-image: url(../../../images/foods.png);
+}
+.Year{
+    position: absolute;
+    padding: 2px 8px;
+    gap: 10px;
+    background: rgba(148, 148, 148, 0.6);
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #FFDD67;
+    top: 9%;
+    left: 8%;
+}
+.cardHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.cardDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 200%;
+    color: #FFFFFF;
+}

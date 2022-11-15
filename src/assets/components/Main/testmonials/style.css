@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SectionHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 200%;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 48px;
+}
+.SectionHeading span{
+        font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 200%;
+            text-align: center;
+            color: #008F76;
+}
+.testmonials{
+    padding-bottom: 108px;
+}
+.testmonialsWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.testmonial{
+    padding: 30px;
+        gap: 24px;
+        width: 596px;
+        background: #FFFFFF;
+        box-shadow: 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+        border-radius: 5px;
+        flex: none;
+        order: 0;
+}
+.TestmonialHeading{
+    font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #212121;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom: 24px;
+}
+.testmonialMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #212121;
+}
+.Job{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #949494;
+}
+.testmonial:nth-child(2) .testmonialMain{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.testmonial:nth-child(2) .testmonialMain .accountData{
+    margin-left: 16px;
+}
+.incomeDataWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.incomeData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.incomeData:first-child{
+width: 183px;
+}
+.incomeData:nth-child(2){
+width: 250px;
+}
+.incomeData:nth-child(3){
+width: 213px;
+}
+.counter{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 200%;
+        text-align: center;
+        color: #212121;
+        display: block;
+}
+.DataType{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #949494;
+}
